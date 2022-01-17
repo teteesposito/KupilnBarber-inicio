@@ -55,8 +55,9 @@ a:visited{
 }
 
 a:hover{
-	font-size: 15px;
 	color: #666;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 a:active{
@@ -65,7 +66,6 @@ a:active{
 
 a{
 	transition: color 0.3s ease;
-	transition: font-size 0.3 ease;
 }
 
 h3{
