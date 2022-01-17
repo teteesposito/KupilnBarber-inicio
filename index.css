@@ -1,0 +1,86 @@
+*{
+	font-family: outfit;
+}
+
+#titulo {
+	display: inline;
+	font-size: 50px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
+body {
+	background-image: url(descarga.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav{
+	background-color: rgba(0,0,0,0.9);
+	padding: 5px, 0px;
+	border: 1px solid black;
+	margin: 10px 0px;
+	max-height: 52px;
+}
+
+ul{
+	list-style: none;
+	text-align: right;
+	max-height: 20px;
+}
+
+li{
+	display: inline;
+	margin: 0px 10px;
+
+}
+
+a:link{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	font-size: 15px;
+	color: #666;
+}
+
+a:active{
+	color: #ddd;
+}
+
+a{
+	transition: color 0.3s ease;
+	transition: font-size 0.3 ease;
+}
+
+h3{
+	font-size: 30px;
+	margin: 15px 0px;
+}
+
+#quesomos{
+	margin: 0px;
+}
+
+#fotos{
+	margin: 5px;
+}
+
+article{
+	padding-bottom: 150px;
+}
